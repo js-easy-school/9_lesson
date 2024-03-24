@@ -1,0 +1,26 @@
+/* MyComponent.css */
+
+.red {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+.button {
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f1f1f1; /* цвет фона при наведении курсора */
+    transition: background-color 0.3s ease; /* анимация изменения цвета фона */
+}
+
+.button:active {
+    background-color: #c7c7c7; /* цвет фона при нажатии */
+}

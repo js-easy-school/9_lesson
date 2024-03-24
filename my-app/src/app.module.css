@@ -1,0 +1,43 @@
+.app {
+	text-align: center;
+}
+
+.header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.screen {
+	font-size: 40px;
+	border: 1px solid black;
+}
+
+.resultScreen {
+	color: blue;
+}
+.buttons {
+	display: flex;
+}
+
+.leftGroup {
+	width: 240px;
+}
+
+.rightGroup {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+
+.button {
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+}
